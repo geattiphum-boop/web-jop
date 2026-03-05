@@ -1,0 +1,65 @@
+body{
+
+    background-image: url(../images/background.jpg);
+    background-size: cover; /*ให้เต็มจอ*/
+    background-repeat: no-repeat; /*ไม่ให้ภาพซ้ำ*/
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+header{
+    height: 100vh;
+    background-color: white;
+}
+.header{
+   
+    color: #bca89f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border: none;
+
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+     list-style-type: none;
+}
+
+.menu a{
+    color: #bca89f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid  transparent;
+    border-radius: 8px;
+    transition: 0.3s;
+
+}
+
+.menu a:hover{                            /*วางเมาล์*/
+    color:#bca89f;
+    border: 2px solid #bca89f;
+}
+
+                
+.menu a:active{
+    color: #bca89f;                 /*คลิก*/
+}
+
+.container{
+    width: 40%;
+    padding: 0 auto;
+    background: white;
+    border: 3px solid #bca89f;
+    border-radius: 20px;
+    text-align: center;
+    margin: 50px auto;
+   
+}
